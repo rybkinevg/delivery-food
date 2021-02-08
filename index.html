@@ -7,6 +7,7 @@
     <title>Delivery Food</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -15,7 +16,7 @@
 
         <header class="header">
             <img src="./assets/img/logo.svg" alt="Логотип">
-            <input class="search-input" type="search" placeholder="Адрес доставки">
+            <input class="input input-address" type="search" placeholder="Адрес доставки">
             <div class="buttons">
                 <button class="button button-primary button-auth">Войти</button>
                 <button class="button button-cart">Корзина</button>
@@ -23,7 +24,66 @@
         </header>
 
         <section class="promo">
-            <h1 class="promo-title">Онлайн-сервис доставки еды на дом</h1>
+            <h1 class="promo-title">Онлайн-сервис<br />доставки еды на дом</h1>
+            <p class="promo-text">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+        </section>
+
+        <section class="restaurants">
+            <div class="section-heading">
+                <h2 class="section-title">Рестораны</h2>
+                <input type="search" class="input input-search" placeholder="Поиск блюд и ресторанов">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-image" src="./assets/img/card-1.jpg" alt="Пицца плюс">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Пицца плюс</h3>
+                            <span class="card-tag tag">50 мин</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-rating">
+                                <img src="./assets/img/rating-star.svg" alt="Звезда рейтинга">4.5
+                            </div>
+                            <div class="card-price">От 900 ₽</div>
+                            <div class="card-category">Пицца</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/img/card-1.jpg" alt="Пицца плюс">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Пицца плюс</h3>
+                            <span class="card-tag tag">50 мин</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-rating">
+                                <img src="./assets/img/rating-star.svg" alt="Звезда рейтинга">
+                                4.5
+                            </div>
+                            <div class="card-price">От 900 ₽</div>
+                            <div class="card-category">Пицца</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/img/card-1.jpg" alt="Пицца плюс">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h3 class="card-title">Пицца плюс</h3>
+                            <span class="card-tag tag">50 мин</span>
+                        </div>
+                        <div class="card-info">
+                            <div class="card-rating">
+                                <img src="./assets/img/rating-star.svg" alt="Звезда рейтинга">4.5
+                            </div>
+                            <div class="card-price">От 900 ₽</div>
+                            <div class="card-category">Пицца</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </div>
